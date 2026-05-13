@@ -32,7 +32,7 @@ jobs:
     - name: Compilation avec Flet Build
       # La commande officielle Flet. On donne un nom strict au binaire généré.
       run: |
-        flet build linux --project-name shellino_moviebox
+        flet build linux --project shellino_moviebox
 
     - name: Préparation de la structure du fichier .deb
       run: |
